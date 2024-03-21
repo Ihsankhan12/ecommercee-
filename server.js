@@ -18,8 +18,8 @@ const app = express();
 connectDB();
 
 //esmodule fix
-const __dirname = fileURLToPath("import.meta.url");
-const __filename = path.dirname(__filename);
+const __filename = fileURLToPath("import.meta.url");
+const __dirname = path.dirname(__filename);
 
 //middlelwares
 app.use(cors());
